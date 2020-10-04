@@ -20,12 +20,13 @@ body {
     font-size: 48px;
 }
 
+/* Colors the company logo */
 .header h1 .seo {
-    color: #d9dcd6;
     color: #9c9a9a;
 }
 
-.header div {
+/* Moves the nav bar to the left of the screen */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,21 +34,22 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Removes any ___ from the a elements in the nav bar */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-
+/* Foramtting for the large background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,6 +63,7 @@ p {
     font-size: 16px;
 }
 
+/* The following three floats determine where the images land */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -77,6 +80,7 @@ p {
     margin-left: 20px;
 }
 
+/* Styles the right side of the page */
 .content-style {
     margin-bottom: 20px;
     padding: 50px;
@@ -90,6 +94,7 @@ p {
     max-height: 200px;
 }
 
+/* Formats all h2 tags in the content class */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -116,6 +121,7 @@ h3 {
     text-align: center;
 }
 
+/* Foramts all images in the aside  */
 .aside img{
     display: block;
     margin: 10px auto;
